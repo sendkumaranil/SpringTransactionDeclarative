@@ -1,7 +1,7 @@
 # Spring Transaction Management
 using Declarative Approach
 <hr>
-<b>Using Declarative Spring AOP and Spring Tx</b><br><br>
+<b>Using Declarative Spring AOP and Spring tx:advice</b><br><br>
 
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
     		<tx:attributes>
